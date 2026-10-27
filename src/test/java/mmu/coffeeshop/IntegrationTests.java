@@ -30,6 +30,7 @@ public class IntegrationTests {
         
         Assert.assertEquals(1, basket.getItemCount());
         Assert.assertEquals("Tea", basket.getItems().get(0).getName());
+        Assert.assertEquals(149, basket.getTotalPrice());
     }
 
     @Test
